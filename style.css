@@ -143,20 +143,26 @@ h3 {
 }
 
 /* components */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .testimonial-grid {
   display: grid;
   gap: 1.5rem;
-  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+ /* grid-auto-columns: 1fr;
   grid-template-areas:
-   'one'
-   'two'
-   'three'
-   'four'
-   'five';
-
+    "one"
+    "two"
+    "three"
+    "four"
+    "five";
+*/
   padding-block: 2rem;
-  width: min(95%, 70rem);
-  margin-inline: auto;
+  /* width: min(95%, 70rem); */
+  margin-inline: auto; 
 }
 
 .testimonial {
@@ -166,7 +172,7 @@ h3 {
   box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
 }
 
-.testimonial:nth-child(1) {
+/* .testimonial:nth-child(1) {
   grid-area: one;
 }
 .testimonial:nth-child(2) {
@@ -184,7 +190,7 @@ h3 {
 
 @media screen and (min-width: 33em) {
   .testimonial-grid {
-      grid-template-areas:
+    grid-template-areas:
       "one one"
       "two three"
       "five five"
@@ -195,16 +201,16 @@ h3 {
 @media screen and (min-width: 38em) {
   .testimonial-grid {
     grid-template-areas:
-     'one one'
-     'two five'
-     'three five'
-     'four four';
+      "one one"
+      "two five"
+      "three five"
+      "four four";
   }
 }
 
 @media screen and (min-width: 54em) {
   .testimonial-grid {
-      grid-template-areas:
+    grid-template-areas:
       "one one two"
       "five five five"
       "three four four";
@@ -213,12 +219,11 @@ h3 {
 
 @media screen and (min-width: 75em) {
   .testimonial-grid {
-      grid-template-areas:
+    grid-template-areas:
       "one one two five"
       "three four four five";
   }
-}
-
+} */
 
 .testimonial.quote {
   background-image: url("./images/bg-pattern-quotation.svg");
