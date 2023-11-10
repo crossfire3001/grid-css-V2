@@ -176,6 +176,11 @@ h3 {
   box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
 }
 
+.testimonial:nth-child(3) {
+  background: orange;
+  grid-row-end: span 2;
+}
+
 /* .testimonial:nth-child(1) {
   grid-area: one;
 }
