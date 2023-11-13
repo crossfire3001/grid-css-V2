@@ -310,14 +310,14 @@ h3 {
   opacity: 0.7;
 }
 
-.promo__grid-card {
+.promo__grid-card__vegan {
   background-color: #305a29;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
 }
 
-.promo__grid-card__body {
+.promo__grid-card__body-vegan {
   display: flex;
   height: 138px;
   position: relative;
@@ -325,14 +325,14 @@ h3 {
   text-align: center;
 }
 
-.promo__grid-card__body-img {
+.promo__grid-card__body-img__vegan {
   position: absolute;
   z-index: 1;
   bottom: 5px;
   left: 9px;
 }
 
-.promo__grid-card__body::before {
+.promo__grid-card__body-vegan::before {
   content: "";
   position: absolute;
   width: 100px;
@@ -344,7 +344,7 @@ h3 {
   bottom: 5px;
 }
 
-.promo__grid-card__body-text {
+.promo__grid-card__body-text__vegan {
   font-size: 18px;
   line-height: 23px;
   margin-top: 20px;
@@ -352,12 +352,12 @@ h3 {
   max-width: 153px;
 }
 
-.promo__grid-card__body-text span {
+.promo__grid-card__body-text__vegan span {
   font-size: 36px;
   line-height: 30px;
 }
 
-.promo__grid-card__footer-img {
+.promo__grid-card__footer-img__vegan {
   position: absolute;
   right: 0;
   bottom: -40%;
