@@ -21,6 +21,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* Remove default margin */
@@ -304,4 +306,73 @@ h3 {
 
 .testimonial > p:last-of-type {
   opacity: 0.7;
+}
+
+.vegan-menu {
+  background-color: #305a29;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.lettuce {
+  position: absolute;
+  right: 0;
+  bottom: -40%;
+}
+
+.vegan-block {
+  display: flex;
+  height: 138px;
+  position: relative;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.vegan-burger {
+  position: absolute;
+  z-index: 1;
+  bottom: 5px;
+  left: 9px;
+}
+
+.vegan-block::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 108px;
+  border-radius: 50%;
+  background: rgba(94, 159, 54, 0.62);
+  filter: blur(10px);
+  left: 0;
+  bottom: 5px;
+}
+
+.vegan-text {
+  font-size: 18px;
+  line-height: 23px;
+  margin-top: 20px;
+  color: white;
+  max-width: 153px;
+}
+
+.vegan-text span {
+  font-size: 36px;
+  line-height: 30px;
+}
+
+.burger-1 {
+
+}
+
+.burger-2 {
+
+}
+
+.burger-3 {
+
+}
+
+.burger-4 {
+
 }
