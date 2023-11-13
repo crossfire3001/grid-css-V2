@@ -116,10 +116,6 @@ h3 {
   gap: var(--gap, 1rem);
 }
 
-.flow > *:where(:not(:first-child)) {
-  margin-top: var(--flow-spacer, 1em);
-}
-
 .bg-primary-400 {
   background: hsl(var(--clr-primary-400));
 }
@@ -284,11 +280,11 @@ h3 {
   background-position: top right 10%;
 }
 
-.testimonial img {
+/* .testimonial img {
   width: 1.75rem;
   aspect-ratio: 1;
   border-radius: 50%;
-}
+} */
 
 .testimonial .name {
   font-size: var(--fs-400);
@@ -418,3 +414,8 @@ h3 {
   z-index: -1;
 }
 
+/* 3rd card */
+.promo__grid-card__party {
+  background-color: #b44b00;
+
+}
