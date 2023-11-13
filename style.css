@@ -310,6 +310,8 @@ h3 {
   opacity: 0.7;
 }
 
+
+/* 1st card */
 .promo__grid-card__vegan {
   background-color: #305a29;
   border-radius: 10px;
@@ -361,5 +363,58 @@ h3 {
   position: absolute;
   right: 0;
   bottom: -40%;
+}
+
+/* 2nd card */
+.promo__grid-card__sample {
+  background-color: #350039;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+.promo__grid-card__body-sample {
+  display: flex;
+  height: 138px;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  align-items: center;
+}
+
+.promo__grid-card__body-text__sample {
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+  max-width: 166px;
+  margin-top: 12px;
+}
+
+.promo__grid-card__body-text__sample span {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+
+.promo__grid-card__body-images__sample {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  position: absolute;
+  bottom: -10%;
+  right: calc(50% - 115px);
+}
+
+.promo__grid-card__body-img__bg::before {
+  content: "";
+  width: 100px;
+  height: 108px;
+  border-radius: 50%;
+  background: rgba(110, 0, 45, 0.62);
+  filter: blur(10px);
+  left: 0;
+  bottom: 5px;
+  position: absolute;
+  z-index: -1;
 }
 
