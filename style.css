@@ -152,7 +152,7 @@ h3 {
 
 
 
-.testimonial-grid {
+.promo__grid {
   display: grid;
   gap: 1.5rem;
   grid-template-areas: "one two three four";
@@ -192,13 +192,15 @@ h3 {
     padding-right: 15px;
   }
 
-  .testimonial-grid {
+  .promo__grid {
     grid-template-areas: "one" "two" "four" "three";
   }
+
+
 }
 
 @media screen and (min-width: 768px){
-  .testimonial-grid {
+  .promo__grid {
     grid-template-areas: "one two" "four three";
   }
 }
@@ -208,17 +210,17 @@ h3 {
     padding: 0;
   }
 
-  .testimonial-grid {
+  .promo__grid {
     grid-template-areas: "one two three" "four four three";
   }
 }
 
-.testimonial {
+/* .testimonial {
   font-size: var(--fs-400);
   padding: 2rem;
   border-radius: 0.5rem;
   box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
-}
+} */
 
 .testimonial:nth-child(1) {
   grid-area: one;
@@ -308,20 +310,14 @@ h3 {
   opacity: 0.7;
 }
 
-.vegan-menu {
+.promo__grid-card {
   background-color: #305a29;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
 }
 
-.lettuce {
-  position: absolute;
-  right: 0;
-  bottom: -40%;
-}
-
-.vegan-block {
+.promo__grid-card__body {
   display: flex;
   height: 138px;
   position: relative;
@@ -329,14 +325,14 @@ h3 {
   text-align: center;
 }
 
-.vegan-burger {
+.promo__grid-card__body-img {
   position: absolute;
   z-index: 1;
   bottom: 5px;
   left: 9px;
 }
 
-.vegan-block::before {
+.promo__grid-card__body::before {
   content: "";
   position: absolute;
   width: 100px;
@@ -348,7 +344,7 @@ h3 {
   bottom: 5px;
 }
 
-.vegan-text {
+.promo__grid-card__body-text {
   font-size: 18px;
   line-height: 23px;
   margin-top: 20px;
@@ -356,23 +352,14 @@ h3 {
   max-width: 153px;
 }
 
-.vegan-text span {
+.promo__grid-card__body-text span {
   font-size: 36px;
   line-height: 30px;
 }
 
-.burger-1 {
-
+.promo__grid-card__footer-img {
+  position: absolute;
+  right: 0;
+  bottom: -40%;
 }
 
-.burger-2 {
-
-}
-
-.burger-3 {
-
-}
-
-.burger-4 {
-
-}
