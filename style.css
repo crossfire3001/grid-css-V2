@@ -417,5 +417,27 @@ h3 {
 /* 3rd card */
 .promo__grid-card__party {
   background-color: #b44b00;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  height: 316px;
+  padding: 5px;
+}
+
+.promo__grid-card__text-party {
+  color: white;
+  font-size: 18px;
+  line-height: 75px;
+}
+
+.promo__grid-card__img-party {
+  position: absolute;
+  bottom: -15%;
+  right: calc(50% - 160px);
+}
+
+/* 4th card */
+
+.promo__grid-card__fish {
 
 }
