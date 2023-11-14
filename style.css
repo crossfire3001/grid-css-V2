@@ -439,5 +439,13 @@ h3 {
 /* 4th card */
 
 .promo__grid-card__fish {
+  display: flex;
+  padding: 10px 23px 7px 10px;
+  align-items: center;
+}
 
+.promo__grid-card__text-fish {
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 5px;
 }
